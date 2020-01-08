@@ -47,8 +47,12 @@ public class SeleniumTest {
 		
 		driver.findElement(By.xpath("//*[@id=\"formCover\"]/div[2]/div[2]/sec-view/div/input")).sendKeys("(11)98411-4939");
 	    
-		System.out.println("cadastro de detalhes feito com sucesso");
+		System.out.println("cadastro de detalhes feito com sucesso!!!!!");
 		
+		Thread.sleep(2000);
+		
+		
+
 		
 		
 //		driver.quit();
